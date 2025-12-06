@@ -74,6 +74,21 @@ pyinstaller --onefile --clean --name "DNX Youtuber Downloader" --icon "DNXYoutub
 5.  Haz clic en "Añadir a Cola".
 6.  ¡Listo! El archivo se descargará en la carpeta `Downloads`.
 
+## Parámetros
+
+--port XXXX
+
+Con esto inicia el servidor web en el puerto indicado. Por defecto, el puerto es 5900.
+
+ejemplo:
+
+DNXYoutubeDownloader.exe --port 6789
+
+## Interfaz Web
+
+abre la dirección:
+http://localhost:5900
+
 ## Nota
 
 La interfaz está en español, pero es fácil cambiarla a otro idioma.
@@ -137,6 +152,21 @@ pyinstaller --onefile --clean --name "DNX Youtuber Downloader" --icon "DNXYoutub
 4.  Choose Format (Video/Audio) and Quality.
 5.  Click "Add to Queue".
 6.  Done! The file will be downloaded to the `Downloads` folder.
+
+## Parameters
+
+--port XXXX
+
+With this, the server will start on the indicated port. Default port is 5900
+
+ejemplo:
+
+DNXYoutubeDownloader.exe --port 6789
+
+## Interfaz Web
+
+open web address:
+http://localhost:5900
 
 ## Note
 
