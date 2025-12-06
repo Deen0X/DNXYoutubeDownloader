@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNX Youtuber Downloader</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="assets/app_icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/app_icon.png" alt="DNX Logo" class="app-logo">
+            <h1>DNX Youtuber Downloader</h1>
+        </header>
+
+        <main>
+            <!-- 1. Input Section -->
+            <section class="input-card">
+                <div class="input-row">
+                    <input type="text" placeholder="Pega el enlace de Youtube aquí..." id="urlInput">
+                </div>
+
+                <div class="options-row">
+                    <div class="option-group">
+                        <label>Formato:</label>
+                        <select id="formatSelect">
+                            <option value="video">Video (MP4/MKV)</option>
+                            <option value="audio">Solo Audio (MP3)</option>
+                        </select>
+                    </div>
+                    <div class="option-group">
+                        <label>Calidad:</label>
+                        <select id="qualitySelect">
+                            <option value="best">Mejor Disponible</option>
+                            <option value="1080">1080p</option>
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="preview-container" id="previewContainer">
+                    <img src="" alt="Thumbnail" class="preview-thumb" id="previewThumb">
+                    <div class="preview-info">
+                        <div style="font-weight:bold; margin-bottom:5px;">Video detectado</div>
+                        <div id="previewId" style="color:var(--text-secondary); font-size: 0.8rem;">ID: ...</div>
+                    </div>
+                    <button class="primary-btn" id="addToQueueBtn">Añadir a Cola</button>
+                </div>
+            </section>
+
+            <!-- 2. Active Download -->
+            <section class="active-download-card" id="activeDownloadSection">
+                <div class="active-header">
+                    <div style="display:flex; gap:1rem; align-items:center;">
+                        <img src="" id="activeThumb" class="task-thumb">
+                        <div>
+                            <div style="color:var(--accent-color); font-size:0.8rem; font-weight:bold;">DESCARGANDO
+                                AHORA</div>
+                            <div id="activeTitle" style="font-weight:600;">Título del video...</div>
+                            <div id="activeMeta" style="font-size:0.7rem; color:#aaa;"></div>
+                        </div>
+                    </div>
+                    <button class="cancel-btn" id="cancelBtn">Cancelar</button>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <div class="status-text" id="statusText">0%</div>
+            </section>
+
+            <!-- 3. Queue -->
+            <section class="list-section">
+                <h2>Cola de Espera (<span id="queueCount">0</span>)</h2>
+                <div class="task-list" id="queueList">
+                    <div style="text-align:center; color:#444; padding:1rem;">Cola vacía</div>
+                </div>
+            </section>
+
+            <!-- 4. History -->
+            <section class="list-section">
+                <h2>Descargas Completadas</h2>
+                <div class="task-list" id="historyList">
+                    <!-- Items JS -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>&copy; 2025 DNX Corp.</footer>
+    <script src="assets/app.js"></script>
+</body>
+
+</html>
