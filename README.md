@@ -1,9 +1,6 @@
 # DNXYoutubeDownloader
 Web interface for yt-dlp
 
-
-# DNX Youtuber Downloader
-
 Una aplicación de escritorio moderna y eficiente para descargar videos y audio de YouTube, con una interfaz web limpia y funcionalidades avanzadas como historial persistente y minimización a la bandeja del sistema.
 
 <img src="assets/app_icon.png" alt="App Icon" width="200"/>
@@ -89,6 +86,36 @@ DNXYoutubeDownloader.exe --port 6789
 abre la dirección:
 http://localhost:5900
 
+<img width="893" height="653" alt="image" src="https://github.com/user-attachments/assets/39eac55a-23d8-42b8-a51c-214b00e9b6da" />
+
+Intefaz web inicial
+
+
+<img width="922" height="800" alt="image" src="https://github.com/user-attachments/assets/ecbe910d-3f1a-47ec-a817-204a819ffb92" />
+
+Añadiendo un link de youtube. Seleccionado Video
+
+
+<img width="922" height="800" alt="image" src="https://github.com/user-attachments/assets/ec592fa0-2759-4cac-89f8-61b7ffd79c40" />
+
+Comienza el proceso de descarga
+
+
+<img width="888" height="653" alt="image" src="https://github.com/user-attachments/assets/98fe0fdf-ea2e-4196-ae5d-2a25669d49ef" />
+
+Fichero procesado. Ahora puedes descargarlo localmente usando el boton Guardar
+
+
+<img width="930" height="783" alt="image" src="https://github.com/user-attachments/assets/3ec7d58a-4162-4f7d-a8db-b8fc939ac9be" />
+
+Seleccionando un Audio
+
+
+<img width="1039" height="859" alt="image" src="https://github.com/user-attachments/assets/51075d56-33bf-47cb-ae1b-b377ef8a7d5e" />
+
+Si añades mas de un fichero, serán añadidos a la cola de trabajos
+
+
 ## Nota
 
 La interfaz está en español, pero es fácil cambiarla a otro idioma.
@@ -163,10 +190,44 @@ ejemplo:
 
 DNXYoutubeDownloader.exe --port 6789
 
-## Interfaz Web
+## Web Interface
+
+<img width="911" height="738" alt="image" src="https://github.com/user-attachments/assets/83b572ec-9562-4843-aec7-5cafd0653cbd" />
 
 open web address:
 http://localhost:5900
+
+
+
+<img width="893" height="653" alt="image" src="https://github.com/user-attachments/assets/39eac55a-23d8-42b8-a51c-214b00e9b6da" />
+
+Basic web interface
+
+
+<img width="922" height="800" alt="image" src="https://github.com/user-attachments/assets/ecbe910d-3f1a-47ec-a817-204a819ffb92" />
+
+Adding a link from youtube, and selecting video.
+
+
+<img width="922" height="800" alt="image" src="https://github.com/user-attachments/assets/ec592fa0-2759-4cac-89f8-61b7ffd79c40" />
+
+Starting download process
+
+
+<img width="888" height="653" alt="image" src="https://github.com/user-attachments/assets/98fe0fdf-ea2e-4196-ae5d-2a25669d49ef" />
+
+File processed. you can download locally using the Save button.
+
+
+<img width="930" height="783" alt="image" src="https://github.com/user-attachments/assets/3ec7d58a-4162-4f7d-a8db-b8fc939ac9be" />
+
+You can select Audio
+
+
+<img width="1039" height="859" alt="image" src="https://github.com/user-attachments/assets/51075d56-33bf-47cb-ae1b-b377ef8a7d5e" />
+
+If you add more than a single file, will be added to queue jobs
+
 
 ## Note
 
